@@ -1,12 +1,11 @@
 import java.util.Scanner;
 public class examen5JNC {
     static Scanner it=new Scanner(System.in);
-    public static void ejer1() {
+    public static void ejercicio1() {
         //datos de entrada
         //nivel de del perfil del estudiante
         //4 niveles
         double a, b,c,d;
-        
         String mensaje;
         System.out.println("ingrese la nota del examen de conocimiento");
         a=it.nextInt();
@@ -30,11 +29,11 @@ public class examen5JNC {
         }
         System.out.println(mensaje);
     }
-    public static void ejer2() {
+    public static void ejercicio2() {
         //datos de entrada
         //calcualr el IGV, 
         //el descuento y caunto debe pagar
-    double a,b; 
+    double a; 
     int IGV;
     int elpago;
     String mensaje;
@@ -56,7 +55,7 @@ public class examen5JNC {
     //datos de salida
     System.out.println(mensaje);
     }
-    public static void ejer3() {
+    public static void ejercicio3() {
         //ejercicio 4
         //algoritmo de que vacuna poner :v 
         String mensaje;
@@ -74,9 +73,9 @@ public class examen5JNC {
         System.out.println(mensaje);
     }
     public static void main(String[] args) {
-        ejer1();
-        ejer2();
-        ejer3();
+       ejercicio1();
+       ejercicio2();
+       ejercicio3();
 
 
    
